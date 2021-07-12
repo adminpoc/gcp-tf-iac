@@ -10,6 +10,7 @@ provider "google" {
   region      = "us-west2" 
 }
 
+#adding comment
 #resource "google_project" "testproject01" {
 #  name       = "Test Project"
 #  project_id = "testproject01"

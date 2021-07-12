@@ -41,3 +41,4 @@ jobs:
 	        cp /terraform/poc/gcp-tf-iac/main.tf  /terraform/poc/
 	        cd /terraform/poc/
 	        terraform init
+          echo done

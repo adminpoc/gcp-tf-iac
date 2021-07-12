@@ -32,7 +32,9 @@ jobs:
 
       - name: Run a on-line script
         #run: echo Hello, Srinivas Good Morning!
-        run: cd  /terraform/poc/gcp-tf-iac
+        run: 
+          cd  /terraform/poc/gcp-tf-iac
+          pwd
 
       - name: Run a on-line script
         #run: echo Hello, Srinivas Good Morning!

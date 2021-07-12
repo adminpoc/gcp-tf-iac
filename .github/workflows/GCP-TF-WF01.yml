@@ -29,7 +29,6 @@ jobs:
       - name: Run a one-line script
         #run: echo Hello, Srinivas Good Morning!
         run: hostname
-        run: pwd
 
       - name: Run a on-line script
         #run: echo Hello, Srinivas Good Morning!

@@ -37,8 +37,3 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 	        cd  /terraform/poc/gcp-tf-iac
-	        git pull
-	        cp /terraform/poc/gcp-tf-iac/main.tf  /terraform/poc/
-	        cd /terraform/poc/
-	        terraform init
-          echo done

@@ -30,7 +30,7 @@ jobs:
         #run: echo Hello, Srinivas Good Morning!
         run: hostname
 
-      - name: Run a on-line script
+      - name: Run TF commands
         #run: echo Hello, Srinivas Good Morning!
         run: 
           cd  /terraform/poc/gcp-tf-iac &
